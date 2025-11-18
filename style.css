@@ -20,15 +20,17 @@ body {
     height: 100%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    /* TIGHTNESS CHANGE: Reduced vertical padding */
+    padding: 10px; 
     width: 100%;
 }
 
 /* Header (Sentence Number) */
 .header {
     text-align: center;
-    padding: 10px;
-    font-size: 1.2rem;
+    /* TIGHTNESS CHANGE: Reduced padding and font size slightly */
+    padding: 5px; 
+    font-size: 1.1rem;
     color: #666;
     font-weight: bold;
     text-transform: uppercase;
@@ -37,24 +39,36 @@ body {
 
 /* Main Content (The Sentence) */
 .content {
-    flex: 1; /* Takes up all available space */
+    flex: 1; /* Takes up all available space, important for vertical distribution */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    /* TIGHTNESS CHANGE: Reduced vertical padding around sentence */
+    padding: 10px; 
     text-align: center;
 }
 
 #sentence-text {
-    font-size: 2.5rem; /* Large text */
+    font-size: 2.5rem; 
     line-height: 1.4;
     font-weight: 500;
 }
 
-/* Mobile Adjustment for text size */
+/* Mobile Adjustments for maximum tightness */
 @media (max-width: 600px) {
     #sentence-text {
-        font-size: 1.8rem;
+        /* TIGHTNESS CHANGE: Slightly smaller font for max screen space */
+        font-size: 1.6rem;
+    }
+    
+    .nav-btn {
+        /* TIGHTNESS CHANGE: Reduced button height */
+        padding: 12px 20px; 
+    }
+    
+    .controls {
+        /* TIGHTNESS CHANGE: Reduced bottom space */
+        padding-bottom: 5px; 
     }
 }
 
@@ -63,8 +77,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
-    gap: 15px;
+    /* TIGHTNESS CHANGE: Applied padding adjustment via media query */
+    padding-bottom: 20px; 
+    gap: 10px; /* Reduced gap between elements */
 }
 
 /* Buttons */
@@ -76,9 +91,9 @@ body {
     font-size: 1rem;
     border-radius: 8px;
     cursor: pointer;
-    touch-action: manipulation; /* Optimize for touch */
+    touch-action: manipulation; 
     transition: background-color 0.2s;
-    flex: 1; /* Buttons grow to fill space */
+    flex: 1;
 }
 
 .nav-btn:active {
@@ -93,7 +108,7 @@ body {
     align-items: center;
     font-size: 0.9rem;
     color: #555;
-    width: 80px; /* Fixed width to prevent layout shift */
+    width: 80px;
 }
 
 input[type="checkbox"] {
