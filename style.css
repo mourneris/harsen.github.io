@@ -7,9 +7,10 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: #f4f4f9;
+    /* CHANGE 1: White background */
+    background-color: #FFFFFF; 
     color: #333;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -20,16 +21,17 @@ body {
     height: 100%;
     max-width: 800px;
     margin: 0 auto;
-    /* TIGHTNESS CHANGE: Reduced vertical padding */
     padding: 10px; 
     width: 100%;
 }
 
-/* Header (Sentence Number) */
+/* Header (Logo and Sentence Number) */
 .header {
-    text-align: center;
-    /* TIGHTNESS CHANGE: Reduced padding and font size slightly */
-    padding: 5px; 
+    /* CHANGE 2: Use flexbox to align logo on one side and ID on the other */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px; /* Added some horizontal padding */
     font-size: 1.1rem;
     color: #666;
     font-weight: bold;
@@ -37,13 +39,20 @@ body {
     letter-spacing: 1px;
 }
 
+/* NEW: Logo Styling */
+.logo {
+    /* Keep it small and unobtrusive */
+    height: 30px; 
+    width: auto;
+    object-fit: contain; /* Ensures the image scales correctly */
+}
+
 /* Main Content (The Sentence) */
 .content {
-    flex: 1; /* Takes up all available space, important for vertical distribution */
+    flex: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
-    /* TIGHTNESS CHANGE: Reduced vertical padding around sentence */
     padding: 10px; 
     text-align: center;
 }
@@ -54,20 +63,15 @@ body {
     font-weight: 500;
 }
 
-/* Mobile Adjustments for maximum tightness */
+/* Mobile Adjustments */
 @media (max-width: 600px) {
     #sentence-text {
-        /* TIGHTNESS CHANGE: Slightly smaller font for max screen space */
         font-size: 1.6rem;
     }
-    
     .nav-btn {
-        /* TIGHTNESS CHANGE: Reduced button height */
         padding: 12px 20px; 
     }
-    
     .controls {
-        /* TIGHTNESS CHANGE: Reduced bottom space */
         padding-bottom: 5px; 
     }
 }
@@ -77,9 +81,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* TIGHTNESS CHANGE: Applied padding adjustment via media query */
     padding-bottom: 20px; 
-    gap: 10px; /* Reduced gap between elements */
+    gap: 10px;
 }
 
 /* Buttons */
