@@ -1,21 +1,34 @@
-MIT License
+Copyright © 2025 Anthony Nunez
 
-Copyright (c) 2025 Anthony Nunez
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (“the Software”), to use, reproduce, and distribute unmodified copies of the Software, including for commercial purposes, subject to the following conditions:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+# No Modification.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The Software may not be modified, altered, adapted, translated, reverse engineered, decompiled, or otherwise changed in any manner.
+The creation, use, distribution, or sale of derivative works based on the Software is strictly prohibited.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+# No Distribution of Modified Versions.
+
+Redistribution of the Software is permitted only if the Software is provided in its complete and unmodified form, and this License is included with all copies.
+
+# Use Restrictions.
+
+The Software may be used as-is for personal, educational, internal, or commercial purposes, but may not be incorporated into any product, service, or system in a modified form, nor used to create any tool or work that is based on or derived from a modified version of the Software.
+
+# No Implied Rights.
+
+Except for the limited rights expressly granted in this License, all rights in and to the Software are reserved by the copyright holder. No patent rights, trademark rights, or additional permissions are granted or implied.
+
+# Termination.
+
+Any breach of the terms of this License immediately terminates all rights granted herein. Upon termination, all use and distribution of the Software must cease.
+
+# Disclaimer of Warranty.
+
+The Software is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
+
+# Limitation of Liability.
+
+In no event shall the copyright holder be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
+
+By using the Software, the user agrees to be bound by the terms of this License.
