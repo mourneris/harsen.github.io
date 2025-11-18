@@ -130,3 +130,17 @@ document.addEventListener('keydown', (e) => {
 initializeRandomQueue();
 // 2. Render the default starting sentence (ID 1).
 render();
+
+// --- Service Worker Registration ---
+// Only register if the browser supports Service Workers
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            })
+            .catch(err => {
+                console.log('ServiceWorker registration failed: ', err);
+            });
+    });
+}
