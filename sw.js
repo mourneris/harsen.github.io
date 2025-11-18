@@ -1,4 +1,4 @@
-const CACHE_NAME = 'harvard-sentences-v1';
+const CACHE_NAME = 'harsen-v1';
 
 // List of files to cache when the service worker is installed
 const urlsToCache = [
@@ -6,7 +6,6 @@ const urlsToCache = [
     'index.html',
     'style.css',
     'app.js',
-    'harvard_sentences.js',
     '/images/Logo_rectangular.png',
     '/images/Logo_favicon.png'
 ];
